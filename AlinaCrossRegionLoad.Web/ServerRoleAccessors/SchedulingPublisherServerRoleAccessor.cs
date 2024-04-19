@@ -7,3 +7,5 @@ namespace AlinaCrossRegionLoad.Web.ServerRoleAccessors
 		public ServerRole CurrentServerRole => ServerRole.SchedulingPublisher;
 	}
 }
+
+// test
