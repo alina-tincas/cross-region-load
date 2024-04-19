@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "alina cross region load",
+      "Alias": "alina-cross-region-load",
+      "Id": "a6b8ffa2-f857-4f08-b7d4-2a90eb92ea75",
+      "Workspaces": [
+        {
+          "Id": "bfd3cda8-b24c-49e0-a251-cdfec9cf9833",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://alina-cross-region-load.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
