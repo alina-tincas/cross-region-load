@@ -23,7 +23,19 @@
       "applicationUrl": "https://localhost:44372;http://localhost:19676",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Local"
-      }      
+      }
+    },
+    "Subscriber": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:44372;http://localhost:19676",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Subscriber",
+        "Umbraco__Storage__AzureBlob__Media__ConnectionString": "BlobEndpoint=https://ucmediastoragewelive.blob.core.windows.net/bfd3cda8-b24c-49e0-a251-cdfec9cf9833?sv=2019-07-07&sr=c&si=umbraco&sig=fvTq2mh9LaxsA9szACLqsMW7P0n%2FmNzJ1gaVDcUO9Ds%3D&spr=https",
+        "Umbraco__Storage__AzureBlob__Media__ContainerName": "bfd3cda8-b24c-49e0-a251-cdfec9cf9833",
+        "ConnectionStrings__umbracoDbDSN": "Server=tcp:fc6dka8mfv.database.windows.net,1433;Initial Catalog=3hcenxsqxum;Persist Security Info=False;User ID=cjgnbbbtike@fc6dka8mfv;Password=5M2O7N8nKUp}E{!fsk29;Encrypt=True;TrustServerCertificate=true;Connection Timeout=30;"
+      }
     }
   }
 }
